@@ -65,4 +65,46 @@ a:hover {
     
 .logo a:hover {
     color: #DEB887;
-    }
+}
+
+.menu {
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: repeat(3, 600px);
+}
+
+.b-1, .b-2, .b-3 {
+    display: flex;
+}
+
+.menu img {
+    border: solid 6px #8B4513;
+}
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.bh-1 {
+    padding-left: 16%;
+}
+
+.bh-2 {
+    padding-left: 26%;
+}
+
+.bh-3 {
+    padding-left: 18%;
+}
+
+p {
+    margin: 100px;
+    line-height: 1.5;
+}
+
+.text {
+    padding-bottom: 20px;
+}
+
